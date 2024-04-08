@@ -78,7 +78,7 @@ async def echo(update):
     
     user = await update.get_chat()
     if user.id not in AUTH_USERS:
-        await update.reply("sorry ! you cant use this bot.\n\ndeploy your own bot:\n[Repository_Link](https://github.com/prxpostern/TGFFmpeg001)")
+        await update.reply("sorry ! you cant use this bot)")
         return
 
     ########################################################## Step1
